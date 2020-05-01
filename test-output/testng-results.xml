@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="8" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sample Test Suite" duration-ms="6329" started-at="2020-04-25T23:29:09 EDT" finished-at="2020-04-25T23:29:15 EDT">
+    <groups>
+    </groups>
+    <test name="Sanity Test Chrome" duration-ms="6018" started-at="2020-04-25T23:29:09 EDT" finished-at="2020-04-25T23:29:15 EDT">
+      <class name="TestNGSessions.ContactTest">
+        <test-method status="PASS" signature="contact()[pri:0, instance:TestNGSessions.ContactTest@3fd7a715]" name="contact" duration-ms="5" started-at="2020-04-25T23:29:14 EDT" finished-at="2020-04-25T23:29:14 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+      </class> <!-- TestNGSessions.ContactTest -->
+      <class name="TestNGSessions.HomeTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestNGSessions.HomeTest@26aa12dd]" name="setup" is-config="true" duration-ms="5354" started-at="2020-04-25T23:29:09 EDT" finished-at="2020-04-25T23:29:14 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="header()[pri:0, instance:TestNGSessions.HomeTest@26aa12dd]" name="header" duration-ms="4" started-at="2020-04-25T23:29:14 EDT" finished-at="2020-04-25T23:29:14 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- header -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestNGSessions.HomeTest@26aa12dd]" name="tearDown" is-config="true" duration-ms="649" started-at="2020-04-25T23:29:14 EDT" finished-at="2020-04-25T23:29:15 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGSessions.HomeTest -->
+    </test> <!-- Sanity Test Chrome -->
+    <test name="Sanity Test Firefox" duration-ms="6329" started-at="2020-04-25T23:29:09 EDT" finished-at="2020-04-25T23:29:15 EDT">
+      <class name="TestNGSessions.ContactTest">
+        <test-method status="PASS" signature="contact()[pri:0, instance:TestNGSessions.ContactTest@76f2b07d]" name="contact" duration-ms="1" started-at="2020-04-25T23:29:14 EDT" finished-at="2020-04-25T23:29:14 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+      </class> <!-- TestNGSessions.ContactTest -->
+      <class name="TestNGSessions.HomeTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestNGSessions.HomeTest@1f57539]" name="setup" is-config="true" duration-ms="5064" started-at="2020-04-25T23:29:09 EDT" finished-at="2020-04-25T23:29:14 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="header()[pri:0, instance:TestNGSessions.HomeTest@1f57539]" name="header" duration-ms="6" started-at="2020-04-25T23:29:14 EDT" finished-at="2020-04-25T23:29:14 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- header -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestNGSessions.HomeTest@1f57539]" name="tearDown" is-config="true" duration-ms="1218" started-at="2020-04-25T23:29:14 EDT" finished-at="2020-04-25T23:29:15 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGSessions.HomeTest -->
+    </test> <!-- Sanity Test Firefox -->
+  </suite> <!-- Sample Test Suite -->
+</testng-results>
